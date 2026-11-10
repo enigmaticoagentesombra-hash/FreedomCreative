@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(255, 139, 7);
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+h1, section{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+section h2{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 12px;
+    }
+
+    h1{
+        font-size: 24px;
+        padding: 12px;
+        margin: 15px auto;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+
+    p{
+        font-size: 16px;
+        margin: 15px auto;
+    }
+}
+
