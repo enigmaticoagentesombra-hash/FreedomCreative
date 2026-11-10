@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(238, 238, 238);
+
+}
+
+h1 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+    background-color: rgb(255, 139, 7);
+}
+
+img {
+    width: 25rem;
+    height: 20rem;
+    margin-left: 30rem;
+    margin-right: 25rem;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
